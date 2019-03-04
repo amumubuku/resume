@@ -5,7 +5,7 @@ const lang = {
     experience: '工作经历',
     education: '教育经历',
     skills: '技能专长',
-    projects: '项目',
+    projects: '开源项目',
     contributions: '贡献',
     about: '自我介绍'
 };

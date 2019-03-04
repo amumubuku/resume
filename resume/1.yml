@@ -1,0 +1,95 @@
+/* #*/ export const PERSON = `
+name:
+  first:
+  middle:
+  last: 周维光
+  about: 你好，我叫周维光一名前栈开发工程师，有二年前端开发经验、
+  position: 全栈开发工程师
+
+birth:
+  year: 1997
+  location: 贵阳
+
+experience:
+- company: Company A
+  position: Developer
+  timeperiod: since January 2016
+  description: Programming and watching cute cat videos.
+  website: https://example.com
+
+- company: Company B
+  position: Frontend Developer
+  timeperiod: January 2015 - December 2015
+  description: Fulfillment of extremely important tasks.
+
+- company: 商品进库存
+  position: 前端开发工程师
+  timeperiod: 2017 - 2018
+  description: 与设计师、后端工程师紧密工作在一起,实现产品前端后台管理系统ui和交
+互方面的开发需求，确保不同平台、设备上具有优秀的用户体验，在公司
+一年多，和后段工程师紧密工作，收获了很多前后端分离宝贵经验
+
+education:
+- degree: Master of Arts
+  timeperiod: March 2012 - December 2013
+  description: Major in Hacking and Computer Penetration, University A, New York, USA.
+  website: https://example.com
+
+- degree: Bachelor of Science
+  timeperiod: March 2009 - December 2011
+  description: Major in Engineering, University B, Los Angeles, USA.
+
+# skill level goes 0 to 100
+
+skills:
+- name: HTML5
+  level: 97
+- name: CSS3
+  level: 95
+- name: JavaScript
+  level: 92
+- name: Node.js
+  level: 93
+- name: React
+  level: 90
+- name: Vue
+  level: 95
+- name: TypeScript
+  level: 80
+- name: ES.Next
+  level: 70
+- name: PHP
+  level: 70
+knowledge: Also proficient in Adobe Photoshop and Illustrator, grew up bilingual
+  (English and Klingon).
+
+projects:
+- name: best-resume-ever
+  platform: Vue
+  description: 👔 💼 Build fast 🚀 and easy multiple beautiful resumes and create your best CV ever! Made with Vue and LESS.
+  url: https://github.com/salomonelli/best-resume-ever
+
+hobbies:
+- name: Video Games
+  iconClass: fa fa-gamepad
+  url: https://example.com
+
+- name: Drawing
+  iconClass: fa fa-pencil
+  url: https://example.com
+
+contributions:
+- name: best-resume-ever
+  description: 👔 💼 Build fast 🚀 and easy multiple beautiful resumes.
+  url: https://github.com/salomonelli/best-resume-ever
+
+contact:
+  email: azhouweiguang@gmail.com
+  phone: 19984480032
+  street: 
+  city: 贵阳
+  website: https://moyu.netlify.com
+  github: amumubuku
+# en, de, fr, pt, ca, cn, it, es, th, pt-br, ru, sv, id, hu, pl, ja, ka, nl, he, zh-tw, lt, ko, el
+lang: cn
+`

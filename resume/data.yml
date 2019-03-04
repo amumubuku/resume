@@ -1,70 +1,66 @@
 /* #*/ export const PERSON = `
 name:
-  first: John
+  first:
   middle:
-  last: Doe
-about: Hi, my name is John Doe. I"m just about the most boring type of person you could
-       possibly imagine. I like collecting leaves from the tree in my back yard and documenting
-       each time I eat a peanut that is non-uniform. I am not a robot. Please hire me.
-position: Software Developer
+  last: 周维光
+  about: Hi，我叫周维光一名前栈开发工程师，有二年前端开发经验、
+  position: 全栈开发工程师
 
 birth:
-  year: 1990
-  location: New York
+  year: 1997
+  location: 贵阳
 
 experience:
-- company: Company A
-  position: Developer
-  timeperiod: since January 2016
-  description: Programming and watching cute cat videos.
+- company: 前端可视化开发
+  position: 小程序开发
+  timeperiod: 2018/3/18 - 至今
+  description: 使用基于Vue的Mpvue框架开发小程序，统一开发一套代码可以打包成微信小程序、支付宝小程序、百度小程序、H5，大大减少开发成本和时间。
   website: https://example.com
 
-- company: Company B
-  position: Frontend Developer
-  timeperiod: January 2015 - December 2015
-  description: Fulfillment of extremely important tasks.
-
-- company: Company C
-  position: Trainee
-  timeperiod: March 2014 - December 2014
-  description: Making coffee and baking cookies.
+- company: 电商后台管理系统 
+  position: Web前端
+  timeperiod: 2017 - 2018
+  description: 一个电商后台管理系统的前端项目，基于Vue+Element实现。 主要包括商品管理、订单管理、会员管理、促销管理、运营管理、内容管理、统计报表、财务管理、权限管理、设置等功能
+  website: https://example.com
 
 education:
-- degree: Master of Arts
-  timeperiod: March 2012 - December 2013
-  description: Major in Hacking and Computer Penetration, University A, New York, USA.
+- degree: 计算机
+  timeperiod: 2016/3/11 - 2017/1/23
+  description: 四川理工学院
   website: https://example.com
 
-- degree: Bachelor of Science
-  timeperiod: March 2009 - December 2011
-  description: Major in Engineering, University B, Los Angeles, USA.
 
 # skill level goes 0 to 100
 skills:
 - name: HTML5
-  level: 99
+  level: 97
 - name: CSS3
   level: 95
 - name: JavaScript
-  level: 97
+  level: 92
 - name: Node.js
   level: 93
-- name: Angular 2
-  level: 60
+- name: React
+  level: 90
+- name: Mpvue
+  level: 90
+- name: Taro
+  level: 90
+- name: Vue
+  level: 95
 - name: TypeScript
   level: 80
 - name: ES.Next
   level: 70
-- name: Docker
-  level: 99
-knowledge: Also proficient in Adobe Photoshop and Illustrator, grew up bilingual
-  (English and Klingon).
+- name: PHP
+  level: 70
+knowledge: Hi，我叫周维光一名前栈开发工程师，二年前端应用开发，涉及到电商，视频，音乐，教育应用，对前端主流技术都有涉及。做过Android、IOS跨平台应用基于react-native，为人真诚。
 
 projects:
-- name: best-resume-ever
+- name: Vue音乐播放器
   platform: Vue
-  description: 👔 💼 Build fast 🚀 and easy multiple beautiful resumes and create your best CV ever! Made with Vue and LESS.
-  url: https://github.com/salomonelli/best-resume-ever
+  description: 👔 💼 使用使用Vue-cli脚手架搭建 🚀 项目采用前后端分离，数据请求使用axios，代码开源在Github地址：https://github.com/amumubuku/vue-app，在线预览： https://suyanz.coding.me
+  url: https://suyanz.coding.me
 
 hobbies:
 - name: Video Games
@@ -81,12 +77,12 @@ contributions:
   url: https://github.com/salomonelli/best-resume-ever
 
 contact:
-  email: john.doe@email.com
-  phone: 0123 456789
-  street: 1234 Broadway
-  city: New York
-  website: johndoe.com
-  github: johnyD
+  email: azhouweiguang@gmail.com
+  phone: 19984480032
+  street: 贵阳
+  city: 贵阳
+  website: https://moyu.netlify.com
+  github: amumubuku
 # en, de, fr, pt, ca, cn, it, es, th, pt-br, ru, sv, id, hu, pl, ja, ka, nl, he, zh-tw, lt, ko, el
-lang: en
+lang: cn
 `
